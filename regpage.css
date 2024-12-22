@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.nav {
+    height: 100px;
+    background-color: #fbf8cc;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.lo h1 {
+    background: linear-gradient(to right, #32c4c0, #0974f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.content a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.content a:hover {
+    color: #ea5459;
+    border-bottom: 2px solid #ea5459;
+}
+
+.registration-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ebf4f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.registration-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #0974f1;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-group textarea {
+    resize: none;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00ff87;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.submit-button:hover {
+    background-color: #0974f1;
+}
+.footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.social-icons {
+    margin: 20px 0;
+}
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+    vertical-align: middle;
+}
+.social-icons :hover {
+    background-color: #fff;
+    color: black;
+}
+.nav-links {
+    margin: 20px 0;
+    
+}
+.nav-links a  {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-links :hover {
+    color: #161414;
+    background-color: #fff;
+}
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    cursor: default ;
+}
